@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>BrightAds Agency</title>
+  <title>My Personal Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      background: #f2f2f2;
       color: #333;
     }
 
     header {
-      background: #111;
+      background: #2c3e50;
       color: white;
       padding: 40px;
       text-align: center;
@@ -22,12 +22,12 @@
 
     header h1 {
       margin: 0;
-      font-size: 40px;
+      font-size: 36px;
     }
 
     nav {
-      background: #ff5722;
-      padding: 15px;
+      background: #34495e;
+      padding: 12px;
       text-align: center;
     }
 
@@ -38,47 +38,55 @@
       font-weight: bold;
     }
 
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     section {
-      padding: 50px;
-      text-align: center;
       background: white;
       margin: 20px;
+      padding: 40px;
       border-radius: 10px;
     }
 
-    .services {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
+    section h2 {
+      color: #2c3e50;
     }
 
-    .card {
-      background: #eee;
-      padding: 20px;
-      width: 250px;
-      border-radius: 10px;
+    ul {
+      text-align: left;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .progress {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .bar {
+      background: #ddd;
+      border-radius: 20px;
+      margin-bottom: 15px;
+      overflow: hidden;
+    }
+
+    .bar span {
+      display: block;
+      height: 20px;
+      background: #3498db;
+      text-align: right;
+      padding-right: 10px;
+      color: white;
+      font-size: 14px;
+      line-height: 20px;
     }
 
     footer {
-      background: #111;
+      background: #2c3e50;
       color: white;
       text-align: center;
       padding: 20px;
-    }
-
-    button {
-      background: #ff5722;
-      color: white;
-      border: none;
-      padding: 12px 20px;
-      font-size: 16px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background: #e64a19;
     }
   </style>
 </head>
@@ -86,59 +94,72 @@
 <body>
 
   <header>
-    <h1>BrightAds Agency</h1>
-    <p>We Turn Brands Into Buzz 🚀</p>
+    <h1>Your Name</h1>
+    <p>Student | Learner | Aspiring Professional</p>
   </header>
 
   <nav>
     <a href="#about">About</a>
-    <a href="#services">Services</a>
+    <a href="#education">Education</a>
+    <a href="#progress">Academic Progress</a>
+    <a href="#hobbies">Hobbies</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <section id="about">
-    <h2>About Us</h2>
+    <h2>About Me</h2>
     <p>
-      BrightAds is a creative advertising agency helping brands grow through
-      digital marketing, branding, and powerful campaigns.
+      Hello! I am a student who is passionate about learning and self-development.
+      I enjoy improving my academic skills and exploring new interests that help
+      me grow personally and professionally.
     </p>
   </section>
 
-  <section id="services">
-    <h2>Our Services</h2>
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Degree:</strong> Bachelor / Diploma / School</li>
+      <li><strong>Field:</strong> Your course or stream</li>
+      <li><strong>Institution:</strong> Your college or school name</li>
+      <li><strong>Year:</strong> 20XX – Present</li>
+    </ul>
+  </section>
 
-    <div class="services">
-      <div class="card">
-        <h3>Digital Marketing</h3>
-        <p>Social media, Google Ads, SEO</p>
-      </div>
+  <section id="progress">
+    <h2>Academic Progress</h2>
 
-      <div class="card">
-        <h3>Branding</h3>
-        <p>Logos, brand identity, design</p>
-      </div>
+    <div class="progress">
+      <p>Mathematics</p>
+      <div class="bar"><span style="width: 80%;">80%</span></div>
 
-      <div class="card">
-        <h3>Video Ads</h3>
-        <p>Creative video promotions</p>
-      </div>
+      <p>Programming / Subject</p>
+      <div class="bar"><span style="width: 70%;">70%</span></div>
 
-      <div class="card">
-        <h3>Print Media</h3>
-        <p>Posters, banners, flyers</p>
-      </div>
+      <p>Communication Skills</p>
+      <div class="bar"><span style="width: 65%;">65%</span></div>
     </div>
   </section>
 
+  <section id="hobbies">
+    <h2>Hobbies & Interests</h2>
+    <ul>
+      <li>Reading books</li>
+      <li>Learning new technologies</li>
+      <li>Listening to music</li>
+      <li>Problem solving</li>
+      <li>Watching educational videos</li>
+    </ul>
+  </section>
+
   <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: brightads@gmail.com</p>
-    <p>Phone: +91 98765 43210</p>
-    <button>Get a Free Quote</button>
+    <h2>Contact</h2>
+    <p>Email: yourname@gmail.com</p>
+    <p>Phone: +91 XXXXX XXXXX</p>
+    <p>Location: India</p>
   </section>
 
   <footer>
-    <p>© 2026 BrightAds Agency | All Rights Reserved</p>
+    <p>© 2026 Your Name | Personal Website</p>
   </footer>
 
 </body>
